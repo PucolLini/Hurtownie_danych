@@ -1,0 +1,243 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="cb5e7abf-0536-449e-86db-7ed595aa31c3" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Czas</ID>
+  <Name>Czas</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5391" scrolltop="-7028" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="13822" y="16722" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Czas" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00006b0a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Czas" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-5391</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-7028</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="115">
+            <Shape Id="ID Czas" Expanded="false">
+              <Attributes>
+                <Attribute Id="ID Czas" />
+                <Attribute Id="Godzina" />
+                <Attribute Id="Minuta" />
+                <Attribute Id="Pora Dnia" />
+                <Attribute Id="Sekunda" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="a8999577-c97d-4a4c-a2e5-ef2eb9dc751b">
+    <DataSourceViewID>Policja</DataSourceViewID>
+  </Source>
+  <Type>Time</Type>
+  <ErrorConfiguration dwd:design-time-name="0c8602a0-5b8e-4769-8c4f-6cf5983d7a10">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="f436dfa0-a0f8-4bad-bc06-6d39c7bf7f51">
+      <ID>ID Czas</ID>
+      <Name>ID Czas</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6fd16d70-4242-42d4-84ef-0962140735e8">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0487c3c2-3af4-4bb2-a51b-f068bb8ca0d3">
+            <TableID>dbo_Czas</TableID>
+            <ColumnID>ID_czas</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="09296191-9aba-4e49-a377-aada7d3569fc">
+          <AttributeID>Godzina</AttributeID>
+          <Name>Godzina</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8595f6c8-b601-4ac6-aff6-f8aeaaa2a03d">
+          <AttributeID>Minuta</AttributeID>
+          <Name>Minuta</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d4e7112b-bb4e-48d8-8e6d-d4be8765aada">
+          <AttributeID>Sekunda</AttributeID>
+          <Name>Sekunda</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="034766bb-aa2b-492c-b561-1d3e31db11d6">
+          <AttributeID>Pora Dnia</AttributeID>
+          <Name>Pora Dnia</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8bbb8432-3f75-4a85-bd2a-2ea6ac3bedce">
+      <ID>Godzina</ID>
+      <Name>Godzina</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1aef303e-eae2-4c47-a05a-ac485b887d2a">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6c7d4ac4-e1e8-4a67-b161-004f8be83e18">
+            <TableID>dbo_Czas</TableID>
+            <ColumnID>Godzina</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="86d41df8-f508-4091-b73b-05fad5d0c3ba">
+      <ID>Minuta</ID>
+      <Name>Minuta</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4b4bded6-943a-4382-a196-f64ba096068c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="65fc6750-53df-4d8b-a5e8-f55c9eb46aaf">
+            <TableID>dbo_Czas</TableID>
+            <ColumnID>Minuta</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="94decd44-1490-42d7-9ed2-7c3d5d45e896">
+      <ID>Sekunda</ID>
+      <Name>Sekunda</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fe50084f-755d-4fce-94ea-68b0f763b037">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4f04fed4-1ebd-49c3-8cb7-db1b3b45d7eb">
+            <TableID>dbo_Czas</TableID>
+            <ColumnID>Sekunda</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3a550b91-e112-43f1-b7ae-7675c9d218e6">
+      <ID>Pora Dnia</ID>
+      <Name>Pora Dnia</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="58887aa2-eb34-4e61-9b6b-a259b3bb2705">
+          <DataType>WChar</DataType>
+          <DataSize>16</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8ba11a0d-90f7-4e93-8d7b-f94c2b65eba4">
+            <TableID>dbo_Czas</TableID>
+            <ColumnID>Pora_dnia</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="73d82e3a-049f-4bfb-b199-502a18b14322">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchia Czasu Dojazdu</Name>
+      <Levels>
+        <Level dwd:design-time-name="a14fe20a-23c8-4a30-b086-1351e660aba3">
+          <ID>Godzina</ID>
+          <Name>Godzina</Name>
+          <SourceAttributeID>Godzina</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="5704c33e-0c58-4f14-a679-e0db86515fab">
+          <ID>Minuta</ID>
+          <Name>Minuta</Name>
+          <SourceAttributeID>Minuta</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="4c7119b7-35b8-45ad-a3e8-2f768ad1561e">
+          <ID>Sekunda</ID>
+          <Name>Sekunda</Name>
+          <SourceAttributeID>Sekunda</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="df358614-1cca-4e9a-93b6-4a8fca21f74c">
+      <ID>Hierarchy 1</ID>
+      <Name>Hierarchia Czasu Awarii</Name>
+      <Levels>
+        <Level dwd:design-time-name="da3b8377-50de-4d6e-bbb3-5d46398e5b91">
+          <ID>Godzina</ID>
+          <Name>Godzina</Name>
+          <SourceAttributeID>Godzina</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="da163c3d-276f-4832-85ee-9484abef6b10">
+          <ID>Minuta</ID>
+          <Name>Minuta</Name>
+          <SourceAttributeID>Minuta</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="4df0b615-f990-4315-814e-8c7d6f6024b9">
+          <ID>Sekunda</ID>
+          <Name>Sekunda</Name>
+          <SourceAttributeID>Sekunda</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

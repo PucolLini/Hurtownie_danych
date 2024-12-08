@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SysFolders\\HD\\HD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72926CCF-C35D-4CDB-9132-33A827874130}|HD\\HD.dwproj|D:\\SysFolders\\HD\\HD\\HD\\Policja.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{72926CCF-C35D-4CDB-9132-33A827874130}|HD\\HD.dwproj|solutionrelative:HD\\Policja.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72926CCF-C35D-4CDB-9132-33A827874130}|HD\\HD.dwproj|D:\\SysFolders\\HD\\HD\\HD\\Pojazd.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{72926CCF-C35D-4CDB-9132-33A827874130}|HD\\HD.dwproj|solutionrelative:HD\\Pojazd.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72926CCF-C35D-4CDB-9132-33A827874130}|HD\\HD.dwproj|D:\\SysFolders\\HD\\HD\\HD\\Policja.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{72926CCF-C35D-4CDB-9132-33A827874130}|HD\\HD.dwproj|solutionrelative:HD\\Policja.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72926CCF-C35D-4CDB-9132-33A827874130}|HD\\HD.dwproj|D:\\SysFolders\\HD\\HD\\HD\\Komenda.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{72926CCF-C35D-4CDB-9132-33A827874130}|HD\\HD.dwproj|solutionrelative:HD\\Komenda.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72926CCF-C35D-4CDB-9132-33A827874130}|HD\\HD.dwproj|D:\\SysFolders\\HD\\HD\\HD\\Czas.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{72926CCF-C35D-4CDB-9132-33A827874130}|HD\\HD.dwproj|solutionrelative:HD\\Czas.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 55,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f5cd1b51-c771-5648-966f-646d419b1e7c}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Policja.cube [Design]",
+              "DocumentMoniker": "D:\\SysFolders\\HD\\HD\\HD\\Policja.cube",
+              "RelativeDocumentMoniker": "HD\\Policja.cube",
+              "ToolTip": "D:\\SysFolders\\HD\\HD\\HD\\Policja.cube [Design]",
+              "RelativeToolTip": "HD\\Policja.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-26T02:33:08.354Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Pojazd.dim [Design]",
+              "DocumentMoniker": "D:\\SysFolders\\HD\\HD\\HD\\Pojazd.dim",
+              "RelativeDocumentMoniker": "HD\\Pojazd.dim",
+              "ToolTip": "D:\\SysFolders\\HD\\HD\\HD\\Pojazd.dim [Design]",
+              "RelativeToolTip": "HD\\Pojazd.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-26T02:26:42.417Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Komenda.dim [Design]",
+              "DocumentMoniker": "D:\\SysFolders\\HD\\HD\\HD\\Komenda.dim",
+              "RelativeDocumentMoniker": "HD\\Komenda.dim",
+              "ToolTip": "D:\\SysFolders\\HD\\HD\\HD\\Komenda.dim [Design]",
+              "RelativeToolTip": "HD\\Komenda.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-26T02:17:11.628Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Policja.dsv [Design]",
+              "DocumentMoniker": "D:\\SysFolders\\HD\\HD\\HD\\Policja.dsv",
+              "RelativeDocumentMoniker": "HD\\Policja.dsv",
+              "ToolTip": "D:\\SysFolders\\HD\\HD\\HD\\Policja.dsv [Design]",
+              "RelativeToolTip": "HD\\Policja.dsv [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-25T00:35:29.225Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Czas.dim [Design]",
+              "DocumentMoniker": "D:\\SysFolders\\HD\\HD\\HD\\Czas.dim",
+              "RelativeDocumentMoniker": "HD\\Czas.dim",
+              "ToolTip": "D:\\SysFolders\\HD\\HD\\HD\\Czas.dim [Design]",
+              "RelativeToolTip": "HD\\Czas.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-25T00:35:18.011Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

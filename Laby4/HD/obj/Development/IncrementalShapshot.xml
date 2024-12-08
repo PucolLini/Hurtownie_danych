@@ -1,0 +1,117 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Policja</Database>
+    <Server>LAPTOP-56PLIV3T\DATAWAREHOUSE</Server>
+    <ConnectionString>Data Source=LAPTOP-56PLIV3T\DATAWAREHOUSE;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>x//PtIvbjeviaVy+L25r+h0SxuQ=26.11.2024 09:00:0226.11.2024 08:55:16</TimeStamp>
+        <ID>
+          <String>Policja</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>AduPWSM/oCTnnulgjr8L0gQAL/I=26.11.2024 01:42:0926.11.2024 08:55:16</TimeStamp>
+        <ID>
+          <String>Policja</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>q1tpGxhOuV4MbjVBE/DOj5qF4ho=25.11.2024 01:34:4026.11.2024 08:55:16</TimeStamp>
+        <ID>
+          <String>Data</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>c77s11GG4FnKrZxC3ObrJGS4vSg=25.11.2024 01:34:4126.11.2024 08:55:16</TimeStamp>
+        <ID>
+          <String>Opis Awarii</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>3gK1MVmtKb/60UGdwdjq7OfrpmE=25.11.2024 01:34:4026.11.2024 08:55:16</TimeStamp>
+        <ID>
+          <String>Czas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>2jyyHJh1g32UHdgLg3XDsONZzpI=25.11.2024 01:34:4126.11.2024 08:55:16</TimeStamp>
+        <ID>
+          <String>Miejsce Zdarzenia</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>qMMAjGUvMjUSr2joDMTlngK0lCs=25.11.2024 01:34:4126.11.2024 08:55:16</TimeStamp>
+        <ID>
+          <String>Opis Zdarzenia</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>GptDzjDpahCBhjil+1MsB2RpGHg=25.11.2024 01:34:4126.11.2024 08:55:16</TimeStamp>
+        <ID>
+          <String>Patrol</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>tYeGOiMHyjR8TKP5R/gTFDKZGR4=26.11.2024 03:07:5026.11.2024 08:55:16</TimeStamp>
+        <ID>
+          <String>Numer Trasy</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>RBNfvK5bK4d7oVojtuHey6Z6YeI=26.11.2024 03:17:1126.11.2024 08:55:16</TimeStamp>
+        <ID>
+          <String>Komenda</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Men4/D0Zq2dPWKr6x6jNNCEtCtk=26.11.2024 03:26:4226.11.2024 08:55:16</TimeStamp>
+        <ID>
+          <String>Pojazd</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>KZQ+XT3Wscf6+3upKEvx2frSUh4=26.11.2024 04:52:1526.11.2024 08:55:16aqRdWS3YDLc1x7teOWpnZaC0Pt8=25.11.2024 01:34:4126.11.2024 08:55:16</TimeStamp>
+        <ID>
+          <String>Policja</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>SZey76AqdJztoIhHguDEfvNZX+8=25.11.2024 01:34:4126.11.2024 08:55:16</TimeStamp>
+      <ID>
+        <String>Policja</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-11-26T08:00:55.393333Z</LastDeployed>
+</DeploymentSnapshot>
